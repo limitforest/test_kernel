@@ -1,8 +1,8 @@
 #ifndef _LINUX_LIST_H
 #define _LINUX_LIST_H
 
-#define LIST_POISON1 NULL
-#define LIST_POISON2 NULL
+#define LIST_POISON1 0
+#define LIST_POISON2 0
 
 struct list_head
 {
